@@ -16,4 +16,7 @@ VALIDATION_SPLIT = 0.2
 SEED = 42
 EPOCHS = 10
 
+# Décalage entre deux fenêtres d'entraînement (< MAX_LEN => fenêtres qui se recouvrent)
+STRIDE = MAX_LEN // 2
+
 DROPOUT_RATE = 0.1
